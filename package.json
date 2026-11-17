@@ -1,0 +1,24 @@
+{
+  "name": "mt-1",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000M\u0000T\u0000-\u00001\u0000-\u0000L\u0000A\u0000B\u0000-\u0000E\u0000X\u0000A\u0000M\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gauravv110197/MT-1-LAB-EXAM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Gauravv110197/MT-1-LAB-EXAM/issues"
+  },
+  "homepage": "https://github.com/Gauravv110197/MT-1-LAB-EXAM#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
