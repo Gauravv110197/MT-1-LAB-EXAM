@@ -26,6 +26,23 @@ let vehicles = [
 ];
 const server = http.createServer((req, res) => {
 
-    console.log(req.url);
+    if (req.url === "/" && req.method === "GET") {
+
+    res.writeHead(200, {
+        "Content-Type": "text/html"
+    });
+
+    res.end("<h1>Welcome to Vehicle Management System</h1>");
+
+}
+else if (req.url === "/vehicles" && req.method === "GET") {
+
+    res.writeHead(200, {
+        "Content-Type": "application/json"
+    });
+
+    res.end(JSON.stringify(vehicles));
+
+}
 
 });
